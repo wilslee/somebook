@@ -3,6 +3,8 @@
 sudo apt-get update
 # 安装基础组件
 sudo apt-get install git libssl-dev openssl
+# gcc相关
+sudo apt-get install build-essential
 # 安装图片库基础寄件
 sudo apt-get install libjpeg-dev zlib1g-dev
 # nginx
