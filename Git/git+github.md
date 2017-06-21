@@ -14,16 +14,17 @@ Git官方文档: <https://git-scm.com/book/en/v2>
 
     git clone your-project-url                  # 从远程服务器下载一个git项目
     git init your-project                       # 初始化一个git项目
-    git status                                  # 查看当前项目的git状态
-    git branch                                  # 查看当前项目所处分支
-    git checkout -b branch-name                 # 切换项目分支
-    git add filepath                            # 添加一个准备要提交的文件
-    git commit -m "your message"                # 提交你的代码
-    git push origin your-branch                 # 推送你的代码到服务器
-    git pull origin your-branch                 # 从你的远程仓库分支
-    # 下面两个命令合并使用相当于git pull
-    git fetch orgin your-branch                 # 获取远程分支节点
-    git merge origin your-branch                # 合并远程分支到本地分支
+	git status                                  # 查看当前项目的git状态
+	git branch                                  # 查看当前项目所处分支
+	git checkout -b branch-name                 # 切换项目分支
+	git add filepath                            # 添加一个准备要提交的文件
+	git commit -m "your message"                # 提交你的代码
+	git push origin your-branch                 # 推送你的代码到服务器
+	git pull origin your-branch                 # 从你的远程仓库分支
+	# 下面两个命令合并使用相当于git pull
+	git fetch orgin your-branch                 # 获取远程分支节点
+	git merge origin your-branch                # 合并远程分支到本地分支
+
 
 
 ## 相关工具
@@ -34,4 +35,14 @@ Git本身自带一个bash工具和一个简单的GUI工具。
 Git图形界面工具：<https://git-scm.com/downloads/guis> (这里推荐新手尽可能先熟悉Git的命令行操作)
 
 (这里推荐一个window下可以运行Linux命令的不错工具<https://github.com/bmatzelle/gow>)
+
+
 ## SSH
+
+SSH是一种客户端与服务端的安全传输协议，通过SSH可以对所有传输的数据进行加密。而且通过SSH传输的数据可以压缩，加快传输的速度。
+
+
+> 关于GitHub上的SSH配置具体可以参考GitHub的[官方教程](https://help.github.com/articles/connecting-to-github-with-ssh/):   
+> 1. [生成ssh的私钥和公钥](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)  
+> 2. [添加公钥到Github账户](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)。
+> 3. [测试添加是否成功](https://help.github.com/articles/testing-your-ssh-connection/)。
