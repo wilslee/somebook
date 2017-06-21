@@ -12,25 +12,24 @@ Github是一个用Git做版本控制的项目托管平台，也是目前世界�
 Git的下载地址是<https://git-scm.com/downloads>   
 Git官方文档: <https://git-scm.com/book/en/v2>
 
-    git clone your-project-url              # 从远程服务器下载一个git项目
-    git init your-project      				# 初始化一个git项目
-	git status             					# 查看当前项目的git状态
-	git branch             					# 查看当前项目所处分支
-	git checkout -b branch-name  			# 切换项目分支
-	git add filepath						# 添加一个准备要提交的文件
-	git commit -m "your message" 			# 提交你的代码
-	git push origin your-branch				# 推送你的代码到服务器
-	git pull origin your-branch    			# 从你的远程仓库分支
-	# 下面两个命令相当于git pull
-	git fetch orgin your-branch             # 获取远程分支节点
-	git merge origin your-branch            # 合并远程分支到本地分支
-	
+    git clone your-project-url                  # 从远程服务器下载一个git项目
+    git init your-project                       # 初始化一个git项目
+    git status                                  # 查看当前项目的git状态
+    git branch                                  # 查看当前项目所处分支
+    git checkout -b branch-name                 # 切换项目分支
+    git add filepath                            # 添加一个准备要提交的文件
+    git commit -m "your message"                # 提交你的代码
+    git push origin your-branch                 # 推送你的代码到服务器
+    git pull origin your-branch                 # 从你的远程仓库分支
+    # 下面两个命令合并使用相当于git pull
+    git fetch orgin your-branch                 # 获取远程分支节点
+    git merge origin your-branch                # 合并远程分支到本地分支
 
 
 ## 相关工具
 Git本身自带一个bash工具和一个简单的GUI工具。  
 >window下可以直接使用Git Bash或者将Git加入到系统环境变量当中方便CMD调用。  
->**Tips：** window下新版Git的安装时有个选项勾选上可以自动将Git加入系统环境变量中 
+>**Tips：** window下新版Git的安装时有个选项勾选上可以自动将Git加入系统环境变量中
 
 Git图形界面工具：<https://git-scm.com/downloads/guis> (这里推荐新手尽可能先熟悉Git的命令行操作)
 
