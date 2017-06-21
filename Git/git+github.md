@@ -41,8 +41,7 @@ Git图形界面工具：<https://git-scm.com/downloads/guis> (这里推荐新手
 
 SSH是一种客户端与服务端的安全传输协议，通过SSH可以对所有传输的数据进行加密。而且通过SSH传输的数据可以压缩，加快传输的速度。
 
-
 > 关于GitHub上的SSH配置具体可以参考GitHub的[官方教程](https://help.github.com/articles/connecting-to-github-with-ssh/):   
 > 1. [生成ssh的私钥和公钥](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)  
-> 2. [添加公钥到Github账户](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)。
+> 2. [添加公钥到Github账户](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)。  
 > 3. [测试添加是否成功](https://help.github.com/articles/testing-your-ssh-connection/)。
