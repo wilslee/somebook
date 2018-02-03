@@ -8,8 +8,7 @@
 #### 安装可选内核模块包以使用 AUFS 内核驱动:
 
 ```
-$ sudo apt-get install linux-image-extra-$(uname -r) linux-image
--extra-virtual
+$ sudo apt-get install linux-image-extra-$(uname -r) linux-image-extra-virtual
 ```
 
 #### 添加 APT 软件源。
